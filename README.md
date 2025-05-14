@@ -1,3 +1,6 @@
+## Overview
+This project illustrates a basic setup on how to serve a hello world api that runs on kubernetes. Once the pod containing the web server is running on k8s, given it's exposed via port 80 (default port for localhost), you should be able to see `Hello world` message when navigating to `localhost` throught the browser.
+
 ### Prerequisites
 - **Kubectl** installed. Follow this [docs](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/#install-kubectl-on-macos) for installation instructions.
 - **Kubernetes** cluster installed and running. It could via via Docker Desktop (preferred), kind or minikube. Follow the Docker Desktop section in this [blog](https://medium.com/@vinoji2005/day-2-setting-up-kubernetes-on-macos-windows-and-ubuntu-0aa72967e901) for installation instructions.
